@@ -88,6 +88,7 @@ public class UserServlet extends HttpServlet {
 		RequestDispatcher dispatcher = request
 				.getRequestDispatcher("user-form.jsp");
 		dispatcher.forward(request, response);
+		/* add user to*/
 
 	}
 
